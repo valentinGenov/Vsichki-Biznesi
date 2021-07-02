@@ -1,0 +1,78 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "c7e3372c9ac601c06b57",
+  "publicPath": "/static/",
+  "outputPath": "D:\\VsichkiBiznesi\\VsichkiBiznesi-project-files\\build\\static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "archive~post": "archive~post.module.js",
+    "post": "post.module.js",
+    "vsichkibiznesi-project-files": "vsichkibiznesi-project-files.module.js"
+  },
+  "assets": [],
+  "filteredAssets": 13,
+  "namedChunkGroups": {
+    "vsichkibiznesi-project-files": {
+      "chunks": [
+        "vsichkibiznesi-project-files"
+      ],
+      "assets": [
+        "vsichkibiznesi-project-files.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive~post",
+        "archive"
+      ],
+      "assets": [
+        "archive~post.module.js",
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "post": {
+      "chunks": [
+        "archive~post",
+        "post"
+      ],
+      "assets": [
+        "archive~post.module.js",
+        "post.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "archive",
+      "files": [
+        "archive.module.js"
+      ]
+    },
+    {
+      "id": "archive~post",
+      "files": [
+        "archive~post.module.js"
+      ]
+    },
+    {
+      "id": "post",
+      "files": [
+        "post.module.js"
+      ]
+    },
+    {
+      "id": "vsichkibiznesi-project-files",
+      "files": [
+        "vsichkibiznesi-project-files.module.js"
+      ]
+    }
+  ]
+}
