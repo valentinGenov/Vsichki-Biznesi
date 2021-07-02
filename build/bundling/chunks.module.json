@@ -1,24 +1,28 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "c7e3372c9ac601c06b57",
+  "hash": "c615d67573180da40b17",
   "publicPath": "/static/",
-  "outputPath": "D:\\VsichkiBiznesi\\VsichkiBiznesi-project-files\\build\\static",
+  "outputPath": "D:\\VsichkiBiznesi\\Vsichki-Temi\\build\\static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
     "archive~post": "archive~post.module.js",
     "post": "post.module.js",
-    "vsichkibiznesi-project-files": "vsichkibiznesi-project-files.module.js"
+    "vsichkibiznesi-project-files": [
+      "vsichkibiznesi-project-files.module.js",
+      "vsichkibiznesi-project-files.ddde1e16e5c403cfcb69.hot-update.js"
+    ]
   },
   "assets": [],
-  "filteredAssets": 13,
+  "filteredAssets": 15,
   "namedChunkGroups": {
     "vsichkibiznesi-project-files": {
       "chunks": [
         "vsichkibiznesi-project-files"
       ],
       "assets": [
-        "vsichkibiznesi-project-files.module.js"
+        "vsichkibiznesi-project-files.module.js",
+        "vsichkibiznesi-project-files.ddde1e16e5c403cfcb69.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -71,7 +75,8 @@
     {
       "id": "vsichkibiznesi-project-files",
       "files": [
-        "vsichkibiznesi-project-files.module.js"
+        "vsichkibiznesi-project-files.module.js",
+        "vsichkibiznesi-project-files.ddde1e16e5c403cfcb69.hot-update.js"
       ]
     }
   ]

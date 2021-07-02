@@ -2,7 +2,7 @@ const settings = {
   "name": "vsichkibiznesi-project-files",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "https://administration.vsichkitemi.com",
       "title": "Всички Бизнеси",
       "description": "Директория на бизнесите в България"
     }
@@ -14,12 +14,12 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "Sample Page",
+              "/sample-page/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Biznes",
+              "/biznes/test/"
             ],
             [
               "Travel",
@@ -45,7 +45,21 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://administration.vsichkitemi.com/",
+          postTypes: [
+            {
+              type: "biznesi", // type slug
+              endpoint: "biznesi", // REST API endpoint
+              archive: "/biznesi" // link where this custom posts are listed
+            }
+          ],
+          taxonomies: [
+            {
+              taxonomy: "kategorii_biznesi", // taxonomy slug
+              endpoint: "biznesi", // REST API endpoint
+              postTypeEndpoint: "biznesi", // endpoint from which posts from this taxonomy are fetched
+            }
+          ]
         }
       }
     },
